@@ -3,16 +3,35 @@
 }
 
 body{
-    background-color: #143F6B;
+    background-color: #f7ac8a;
     margin: 0;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
+}
+
+h1{
+    color: rgb(252, 188, 69);
+    width: fit-content;
+    font-size: 5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+}
+
+.button_container{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
 }
 
 .piano{
     display: flex;
+    padding-top: 1rem;
 }
 
 .key{
