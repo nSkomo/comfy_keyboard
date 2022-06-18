@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #143F6B;
+    background-color: #fc8a2e;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -13,6 +13,7 @@ body{
 
 .piano{
     display: flex;
+    
 }
 
 .key{
