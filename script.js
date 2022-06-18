@@ -5,7 +5,12 @@ const keys = document.querySelectorAll('.key')
 const whiteKeys = document.querySelectorAll('.key.white')
 const blackKeys = document.querySelectorAll('.key.black')
 
-document.getElementsByClassName('piano_button').onclick = function () { alert('hello!'); };
+document.getElementById("piano_button").onclick = function () { alert('hello!'); };
+document.getElementById("rhodes_button").onclick = function () { alert('hello!'); };
+document.getElementById("acoustic_button").onclick = function () { alert('hello!'); };
+document.getElementById("bell_button").onclick = function () { alert('hello!'); };
+document.getElementById("nathan_button").onclick = function () { alert('hello!'); };
+document.getElementById("nathan_g_button").onclick = function () { alert('hello!'); };
 
 keys.forEach(key =>{
     key.addEventListener('click', () => playNote(key))
