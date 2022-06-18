@@ -1,4 +1,4 @@
-const WHITE_KEYS = ['q','w','e','r','t','y','u','i','o','p','[',']','\\']
+const WHITE_KEYS = ['q','w','e','r','t','y','u','i','o','p','[',']']
 const BLACK_KEYS = ['2','3','5','6','7','9','0','=']
 
 const keys = document.querySelectorAll('.key')
