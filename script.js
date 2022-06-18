@@ -5,8 +5,7 @@ const keys = document.querySelectorAll('.key')
 const whiteKeys = document.querySelectorAll('.key.white')
 const blackKeys = document.querySelectorAll('.key.black')
 
-const piano_but = document.getElementsByClassName('piano_button')
-piano_but.addEventListener('click', () => alert('hello!'))
+document.getElementsByClassName('piano_button').onclick = function () { alert('hello!'); };
 
 keys.forEach(key =>{
     key.addEventListener('click', () => playNote(key))
