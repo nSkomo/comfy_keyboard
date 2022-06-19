@@ -23,10 +23,10 @@ const audLoc = [
      'nathan_notes/C.mp3', 'nathan_notes/Db.mp3', 'nathan_notes/D.mp3', 'nathan_notes/Eb.mp3', 'nathan_notes/E.mp3', 'nathan_notes/F.mp3',
       'nathan_notes/Gb.mp3', 'nathan_notes/G.mp3'],
     ['nathan_g_notes/german_c.mp3', 'nathan_g_notes/german_db.mp3', 'nathan_g_notes/german_d.mp3', 'nathan_g_notes/german_eb.mp3', 
-    'nathan_g_notes/german_e.mp3', 'nathan_g_notes/german_f.mp3', 'nathan_g_notes/german-gb.mp3', 'nathan_g_notes/german_g.mp3', 
+    'nathan_g_notes/german_e.mp3', 'nathan_g_notes/german_f.mp3', 'nathan_g_notes/greman-gb.mp3', 'nathan_g_notes/german_g.mp3', 
     'nathan_g_notes/german_ab.mp3', 'nathan_g_notes/german-a.mp3', 'nathan_g_notes/german-bb.mp3', 'nathan_g_notes/german_b.mp3', 
     'nathan_g_notes/german_c.mp3', 'nathan_g_notes/german_db.mp3', 'nathan_g_notes/german_d.mp3', 'nathan_g_notes/german_eb.mp3', 
-    'nathan_g_notes/german_e.mp3', 'nathan_g_notes/german_f.mp3', 'nathan_g_notes/german-gb.mp3', 'nathan_g_notes/german_g.mp3']
+    'nathan_g_notes/german_e.mp3', 'nathan_g_notes/german_f.mp3', 'nathan_g_notes/greman-gb.mp3', 'nathan_g_notes/german_g.mp3']
 ]
 
 const keys = document.querySelectorAll('.key')
